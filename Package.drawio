@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Hospital-Relationship-Diagram" name="Hospital Relationship Diagram">
+    <mxGraphModel dx="1212" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="70" width="70" x="60" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="70" x="600" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="70" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="70" x="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="120" as="sourcePoint" />
+            <mxPoint x="145" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-2" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="187.5" y="120" as="sourcePoint" />
+            <mxPoint x="600" y="407.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="85" as="sourcePoint" />
+            <mxPoint x="230" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-4" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="642.5" y="120" as="sourcePoint" />
+            <mxPoint x="250" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="425" as="sourcePoint" />
+            <mxPoint x="600" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Doctor&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Patient&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="600" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Admin&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="600" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="3wzN6ZgJIdzdYqj7V3kG-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Nurse&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="60" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

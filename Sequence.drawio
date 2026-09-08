@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="HospitalSequencePerfect" name="SequenceDiagram1">
+    <mxGraphModel dx="1585" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="doctor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=16;fillColor=#ffffff;strokeColor=#222222;fontColor=#111111;" value="Doctor" vertex="1">
+          <mxGeometry height="50" width="90" x="101" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nurse" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=16;fillColor=#ffffff;strokeColor=#222222;fontColor=#111111;" value="Nurse" vertex="1">
+          <mxGeometry height="50" width="90" x="311" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=16;fillColor=#ffffff;strokeColor=#222222;fontColor=#111111;" value="Patient" vertex="1">
+          <mxGeometry height="50" width="100" x="511" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=16;fillColor=#ffffff;strokeColor=#222222;fontColor=#111111;" value="Admin" vertex="1">
+          <mxGeometry height="50" width="90" x="721" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="life0" edge="1" parent="1" style="dashed=1;dashPattern=2 2;strokeColor=#333333;strokeWidth=1;endArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="100" as="sourcePoint" />
+            <mxPoint x="145" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life1" edge="1" parent="1" style="dashed=1;dashPattern=2 2;strokeColor=#333333;strokeWidth=1;endArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="100" as="sourcePoint" />
+            <mxPoint x="355" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life2" edge="1" parent="1" style="dashed=1;dashPattern=2 2;strokeColor=#333333;strokeWidth=1;endArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="100" as="sourcePoint" />
+            <mxPoint x="575" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life3" edge="1" parent="1" style="dashed=1;dashPattern=2 2;strokeColor=#333333;strokeWidth=1;endArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="100" as="sourcePoint" />
+            <mxPoint x="795" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="35" width="16" x="347" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="act2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="35" width="16" x="347" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="act3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="35" width="16" x="137" y="283" as="geometry" />
+        </mxCell>
+        <mxCell id="act4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="35" width="16" x="565" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="act5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="35" width="16" x="787" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="act6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="35" width="16" x="787" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;endArrow=block;endFill=1;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="1 : register for appointment">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="130" as="sourcePoint" />
+            <mxPoint x="575" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;dashed=1;dashPattern=4 4;endArrow=block;endFill=0;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="2 : appointment confirmed">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="185" as="sourcePoint" />
+            <mxPoint x="355" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;endArrow=block;endFill=1;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="3 : checkup">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="230" as="sourcePoint" />
+            <mxPoint x="355" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;endArrow=block;endFill=1;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="4 : prescription">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="285" as="sourcePoint" />
+            <mxPoint x="145" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;dashed=1;dashPattern=4 4;endArrow=block;endFill=0;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="5 : Have these medicines">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="355" as="sourcePoint" />
+            <mxPoint x="575" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;endArrow=block;endFill=1;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="6 : Regulary ?">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="390" as="sourcePoint" />
+            <mxPoint x="145" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;endArrow=block;endFill=1;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="7 : For a week">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="450" as="sourcePoint" />
+            <mxPoint x="575" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;endArrow=block;endFill=1;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="8 : pay for medicine">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="590" as="sourcePoint" />
+            <mxPoint x="795" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;dashed=1;dashPattern=4 4;endArrow=block;endFill=0;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="9 : doctors prescription">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="630" as="sourcePoint" />
+            <mxPoint x="575" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;endArrow=block;endFill=1;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="10 : payment">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="680" as="sourcePoint" />
+            <mxPoint x="795" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m11" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;strokeColor=#222222;strokeWidth=1;dashed=1;dashPattern=4 4;endArrow=block;endFill=0;fontSize=14;fontColor=#222222;labelBackgroundColor=#ffffff;" value="11 : payment successful">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="720" as="sourcePoint" />
+            <mxPoint x="575" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
